@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import  {MyFirstComponent}  from './my-first/my-first.component';
-import { MyFisrt2Component } from './my-fisrt2/my-fisrt2.component';
+import { MyFirst2Component } from './my-first2/my-first2.component';
 
 
 
@@ -11,7 +11,7 @@ import { MyFisrt2Component } from './my-fisrt2/my-fisrt2.component';
   declarations: [
     AppComponent,
     MyFirstComponent,
-    MyFisrt2Component
+    MyFirst2Component
   ],
   imports: [
     BrowserModule
