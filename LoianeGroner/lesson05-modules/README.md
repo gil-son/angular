@@ -3,7 +3,7 @@
 <p>app.modules.ts:</p>
 <ul>
   <li>BrowserModule - prepare the application to browser</li>
-  <li>NgModule - NgModules consolidate components, directives, and pipes into cohesive blocks of functionality, each focused on a feature area, application business domain, workflow, or common collection of utilities. Modules can also add services to the application.</li>
+  <li>NgModule - NgModules consolidate components, directives, and pipes into cohesive blocks of functionality, each focused on a feature area, application business domain, workflow, or common collection of utilities. Modules can also add services to the application</li>
   <li>FormsModule - Exports the required providers and directives for template-driven forms, making them available for import by NgModules that import this module</li>
   <li>HttpModule - use in request and response</li>
 </ul>
@@ -39,7 +39,7 @@ export class AppModule { }
 <p>bootstrap: component that must be instantiated from the application. Exclusive in root module</p>
 </ul>
 
-<p>command to creat a module: ng g m name-module</p>
+<p>command to create a module: ng g m name-module</p>
 
 ```
 ng g m courses
