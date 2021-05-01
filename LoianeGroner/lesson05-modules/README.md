@@ -44,7 +44,9 @@ export class AppModule { }
 ```
 ng g m courses
 ```
+
 <p> Will create a /courses inside /app. Access courses.module.ts: </p>
+
 ```
 
 @NgModule({
@@ -60,6 +62,7 @@ export class CoursesModule { }
 <p>After create a module, require import it to app.module.ts:</p>
 
 ```
+
 import { CoursesModule } from './courses/courses.module';
 
 @NgModule({
@@ -77,12 +80,15 @@ import { CoursesModule } from './courses/courses.module';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 ```
+
 <p>Well, creat a component  ng g c courses</p>
 <p>Will create files inside /courses where exists files of modules</p>
 <p>Now is possible use the 'selector' of your module and use this component in other pages, components, etc</p>
 <p>Inside od directory courses, create other component, this will call courses-details</p>
 <p>Now look courses.module.ts:</p>
+
 
 ```
 @NgModule({
