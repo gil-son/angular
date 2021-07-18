@@ -10,7 +10,7 @@
   <tr> 
     <td>
           <ul>
-            <li>* [ ] <a href="https://github.com/gil-son/angular/tree/main/LoianeGroner#module">Template</a></li>
+            <li>* [ ] <a href="https://github.com/gil-son/angular/tree/main/LoianeGroner#module">Module</a></li>
             <li>* [ ] <a href="https://github.com/gil-son/angular/tree/main/LoianeGroner#template">Template</a></li>
             <li>* [ ] <a href="https://github.com/gil-son/angular/tree/main/LoianeGroner#services">Services</a></li>
             <li>* [x] <a href="https://github.com/gil-son/angular/tree/main/LoianeGroner#bind-and-interpolation">Bind and Interpolation</a></li>
