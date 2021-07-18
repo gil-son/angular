@@ -1,5 +1,5 @@
 {
-  "name": "lesson07-services-introduction-and-dependencyInjection",
+  "name": "lesson09-property-binding-and-interpolation",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
