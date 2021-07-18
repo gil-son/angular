@@ -1,9 +1,52 @@
 # Angular
 ## Practice
 
+### Sumary
 
-  
-  
+<table>
+   <tr> 
+     <th> Content </th>
+  </tr>
+  <tr> 
+    <td>
+          <ul>
+            <li>Template</li>
+            <li>Services</li>
+            <li>Bind and Interpolation</li>
+          </ul>
+    </td>
+  </tr> 
+</table>
+ 
+ 
+ ### Template
+ <p>
+    Soon
+ </p>
+ 
+ 
+ ### Service
+ <p>
+    Soon
+ </p>
+ 
+ ### Bind and Interpolation
+ 
+<p> 
+  Is a way to associate information that is in the component and vise and versa: variable, attribute, method, etc.
+  These events can be executed and handled with some logic.
+</p>
+ 
+ <p>
+  Scenarios:
+ </p>
+
+<ul>
+    <li>  <</>template></> <</>--{{value}}-- <</>component></></li>
+    <li>  <</>template></> <</>--[propertie]-- = "value" -- <</>component></></li>
+    <li>  <</>template></> --(event)="handler"--></> <</>component></li>
+    <li>  <</>template></> <</>--[(ngModel)]="propertie"--> <</>component></></li>
+</ul>
 
 ### Source
 
