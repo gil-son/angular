@@ -1,0 +1,53 @@
+<section class="property-binding">
+<!--
+    <article>
+        <h3>Interpolation</h3>
+        <p> String renderized with interpolation: {{ url }}</p>
+        <p> 1 + 1 = {{1+1}}</p>
+        <p> Value 2 + 1 from function = {{2 + getValue()}}</p>
+        <p> Angular course and I like Angular = {{courseAngular && getIlikeAngular()}}</p>
+    </article>
+
+
+    <article>
+        <h3>Porpety Binding</h3>
+        <img src="{{ urlImage }}"/>
+        <img [src]="urlImage"/>
+        <img bind-src="urlImage"/>
+    </article>
+-->
+
+    <article>
+        <h3> Class and Style Binding</h3>
+
+        
+
+
+        <div>
+            Select a class:
+                <select #variableClass (change)="0">
+                    <option value="alert-success">Sucess</option>
+                    <option value="alert-info">Info</option>
+                    <option value="alert-warning">Alert</option>
+                    <option value="alert-danger">Erro</option>
+                </select>
+                <br>
+                
+                <div class="alert {{variableClass.value}}" role="alert" >This text will fill according the value of combobox</div>
+
+                <br>
+                
+                <div class="alert" role="alert" [class.alert-success] = "variableClass.value == 'alert-success'" >success</div>
+                <div class="alert" role="alert" [class.alert-info] = "variableClass.value == 'alert-info'" >info</div>
+                <div class="alert" role="alert" [class.alert-warning] = "variableClass.value == 'alert-warning'">warning</div>
+                <div class="alert" role="alert" [class.alert-danger] = "variableClass.value == 'alert-danger'">danger</div>
+
+                <div class="alert alert-danger"
+                     role="alert"
+                     [style.display] = "variableClass.value == 'alert-danger' ? 'block' : 'none' ">
+                    
+                    This text will appear in cause of error
+                </div>
+        </div>
+    </article>
+</section>
