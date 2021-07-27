@@ -1,5 +1,7 @@
 # Angular
 
+<div align="center"><img src="https://user-images.githubusercontent.com/72712095/127231709-f82c80d9-1ba8-4f0b-b328-8d037a77f4b7.png" /></div>
+
 ## What's Angular?
 
 <p> Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps. built on TypeScript. As a platform, Angular includes:</p>
