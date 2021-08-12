@@ -1,0 +1,24 @@
+<section class="event-binding">
+    <article>
+        <h3> Event Binding</h3>
+
+        <div>
+            <button (click)="btnClick()" class="btn btn-primary">Me clique!</button>
+        </div>
+
+        <br/>
+        <br/>
+
+        <p>Current Value = {{currentValue}}</p>
+        <p>Saved Value = {{savedValue}}</p>
+        <input type="text" 
+        (keyup)="onKeyUp($event)"
+        
+        #getInput
+        
+        />
+
+
+
+    </article>
+</section>
