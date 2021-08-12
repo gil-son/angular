@@ -3,7 +3,7 @@
         <h3> Event Binding</h3>
 
         <div>
-            <button (click)="btnClick()" class="btn btn-primary">Me clique!</button>
+            <button (click)="btnClick()" class="btn btn-primary">Me clique!</button> <!-- on-click -->
         </div>
 
         <br/>
@@ -13,12 +13,17 @@
         <p>Saved Value = {{savedValue}}</p>
         <input type="text" 
         (keyup)="onKeyUp($event)"
-        
-        #getInput
-        
         />
 
+        <br/>
+    
+        <span (mouseover)="onMouseOverOut()" 
+             (mouseout)="onMouseOverOut()"
+             [class.caseTrueThisWillHightLight] = "isMouseOver"
+             >Pass the mouseout
+             
+        </span>
 
-
+        
     </article>
 </section>

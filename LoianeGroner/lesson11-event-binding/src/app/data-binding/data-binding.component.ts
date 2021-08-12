@@ -3,13 +3,22 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
-  styleUrls: ['./data-binding.component.css']
+  // styleUrls: ['./data-binding.component.css']
+  styles:[
+    `
+      .caseTrueThisWillHightLight{
+        background-color: yellow;
+        font-weight: bold;
+      }
+    `
+  ]
 })
 
 export class DataBindingComponent implements OnInit {
 
   currentValue : any = "";
   savedValue : any = "";
+  isMouseOver : boolean = false;
 
   url: any = 'http://loiane.com';
 
@@ -42,6 +51,10 @@ export class DataBindingComponent implements OnInit {
 
   saveValue(value:KeyboardEvent){
     this.savedValue = value;
+  }
+
+  onMouseOverOut(){
+    this.isMouseOver = !this.isMouseOver;
   }
 
 }
