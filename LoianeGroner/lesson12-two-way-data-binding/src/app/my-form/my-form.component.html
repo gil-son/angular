@@ -1,0 +1,73 @@
+<section class="event-binding">
+    <article>
+
+        <div class="two-way-binding">
+            <article>
+                <h3>Two-way data binding</h3>
+
+                <h4>Strings</h4>
+                <p>
+                    You typed: {{theName}}
+                </p>
+
+                <div>
+
+                    <input type="text"
+                        [value] = "theName"
+                        (keyup)="otherWayToUpdateTheName($event)"
+                        
+                    />
+
+                <br/>
+
+                <input type="text"
+                        [ngModel] = "theName"
+                        (ngModelChange)="theName = $event"
+                        
+                    />
+
+                <br/>
+
+                    <input type="text"
+                            [(ngModel)] = "theName"
+                        
+                    />
+                
+                <br/>
+
+                    <input type="text"
+                            bindon-ngModel = "theName"
+                        
+                    />
+                </div>
+
+                <hr/>
+                <h4>Objects</h4>
+
+                <p>
+                    My name is {{person.name}}, I have {{person.age}} old.
+                </p>
+
+                <p>
+                    I live at {{address.street}}
+                    In there have 2 complements 
+                    {{address.complement.compA}} and 
+                    {{address.complement.compB}}
+                </p>
+
+                <input type="text"  [(ngModel)] = "person.name" />
+                <input type="text"  [(ngModel)] = "person.age" />
+
+                <br/>
+
+                
+                <input type="text"  [(ngModel)] = "address.street" />
+                <input type="text"  [(ngModel)] = "address.complement.compA" />
+                <input type="text"  [(ngModel)] = "address.complement.compB" />
+                
+
+            </article>
+        </div>
+        
+    </article>
+</section>
