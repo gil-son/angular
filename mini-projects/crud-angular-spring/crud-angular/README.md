@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Angular Material UI 
+
+This project use <a href="https://material.angular.io/">Angular Material</a> resources and the selected theme is Pink and Blue-grey
+
+```
+ng add @angular/material
+```
