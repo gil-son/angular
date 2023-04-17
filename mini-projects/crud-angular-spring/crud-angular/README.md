@@ -33,3 +33,4 @@ This project use <a href="https://material.angular.io/">Angular Material</a> res
 ```
 ng add @angular/material
 ```
+But, in the style.scss was implemented 2 theme: light and dark
